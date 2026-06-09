@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Technical Process Map</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 16px; }
+    .mermaid { border: 1px solid #eee; padding: 12px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+
+<h2>Technical Process Map</h2>
+
+<div class="mermaid">
+graph TD
+  F1[1.0 Technical Support]
+  F2[2.0 Product Design & Dev]
+  F1 --> F2
+
+  %% Click actions (replace URLs with your real Notion page links)
+  click F1 "PASTE_NOTION_LINK_HERE" "Go to Technical Support"
+  click F2 "PASTE_NOTION_LINK_HERE" "Go to Product Design & Dev"
+</div>
+
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({
+    startOnLoad: true,
+    securityLevel: "loose" // IMPORTANT: allows links/clicks
+  });
+</script>
+
+</body>
+</html>
